@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+
+		<title>Nathan's MathWorks Presentation</title>
+
+		<meta name="description" content="A presentation to show how Nathan and MathWorks makes for a great fit">
+		<meta name="author" content="Nathan Tibbetts">
+
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+
+		<link rel="stylesheet" href="lib/css/reveal.css">
+		<link rel="stylesheet" href="lib/css/moon.css" id="theme">
+		<link rel="stylesheet" href="lib/css/solarized_dark.css">
+	</head>
+
+	<body>
+
+		<div class="reveal">
+			<div class="slides">
+        <section
+          data-markdown="presentation.md"
+          data-separator="^\n\n\n"
+          data-separator-vertical="^\n\n"
+          data-separator-notes="^Note:"
+          data-charset="utf-8">
+        </section>
+			</div>
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="lib/js/reveal.js"></script>
+
+		<script>
+			Reveal.initialize({
+				progress: true,
+				history: true,
+				center: true,
+
+				transition: 'slide',
+
+				dependencies: [
+					{ src: 'lib/js/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'lib/js/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'lib/js/highlight.js', async: true, condition: function() { return !!document.querySelector( 'pre code' ); }, callback: function() { hljs.initHighlightingOnLoad(); } }
+				]
+			});
+		</script>
+	</body>
+</html>

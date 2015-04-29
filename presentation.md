@@ -36,7 +36,9 @@
 - provided a bill of materials for project/application
 
 <!--//-->
-Insert Tech Stack Diagram
+## Code Center Architecture
+![Code Center Architecture][cc_arch]
+[cc_arch]: img/cc_architecture.svg "Code Center Architecture"
 
 <!--//-->
 ## Code Center Responsibilities
@@ -71,10 +73,14 @@ Insert Tech Stack Diagram
 - fields to be shown based on current form data determined by back end
 
 <!--//-->
-Insert Initial Request Form Wireframe
+## Starting Request Form
+![Starting Request Form Wireframe][start_frame]
+[start_frame]: img/starting_request_form.svg "Starting Request Form Wireframe"
 
 <!--//-->
-Insert Changed Request Form Wireframe
+## Changed Request Form
+![Changed Request Form Wireframe][changed_frame]
+[changed_frame]: img/changed_request_form.svg "Changed Request Form Wireframe"
 
 <!--/-->
 ## Performance Problem

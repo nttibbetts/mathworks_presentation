@@ -40,6 +40,8 @@
       Reveal.initialize({
         history: false,
         controls: false,
+        autoSlide: 3600000, // enable autoslide without autosliding
+        autoSlideStoppable: false,
 
         dependencies: [
           { src: 'lib/js/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },

@@ -10,3 +10,16 @@
   border: none;
   box-shadow: none;
 }
+
+.reveal .thanks {
+  color: #268bd2;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -60%);
+}
+
+.reveal .fragment.pull-down {
+  position: absolute;
+  bottom: 0;
+}

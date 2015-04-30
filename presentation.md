@@ -133,4 +133,7 @@
 - Stable and growing company <!-- .element: class="fragment roll-in" -->
 
 <!--/-->
-# Thanks! <!-- .element: style="color: #268bd2;" -->
+<!-- .slide: style="height: 100%;" data-autoslide="3000" -->
+
+# Thanks! <!-- .element: class="thanks" -->
+Liked the presentation? The code is available at github.com/nttibbetts/mathworks_presentation <!-- .element: class="fragment pull-down roll-in" -->

@@ -47,7 +47,8 @@
         dependencies: [
           { src: 'lib/js/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
           { src: 'lib/js/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
-          { src: 'lib/js/highlight.js', async: true, condition: function() { return !!document.querySelector( 'pre code' ); }, callback: function() { hljs.initHighlightingOnLoad(); } }
+          { src: 'lib/js/highlight.js', async: true, condition: function() { return !!document.querySelector( 'pre code' ); }, callback: function() { hljs.initHighlightingOnLoad(); } },
+          { src: 'lib/js/notes.js', async: true }
         ]
       });
     </script>

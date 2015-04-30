@@ -95,6 +95,7 @@
 <!--//-->
 ## Solution
 - Rewrite this view without the UI framework
+  - really no other options that didn't involve replacing the UI framework completely
 - Potential Risks <!-- .element: class="fragment" -->
   - no guarantee that it would be significantly faster
   - never done on any other view, so limited time estimate
@@ -107,7 +108,7 @@
 
 <!--//-->
 ## Outcome
-- Significant decrease in page load time
+- Significant decrease in page load time <!-- .element: class="fragment" -->
   - < 1 second on chrome/firefox
   - 1-3 seconds on IE8/IE9
   - ~5 seconds on IE7
@@ -117,19 +118,19 @@
 
 <!--/-->
 # Why Nathan?
-- High attention to detail
-- Enthusiastic
-- Eager to learn
-- Great team player
-- Up to date with latest js libraries
+- High attention to detail <!-- .element: class="fragment roll-in" -->
+- Enthusiastic <!-- .element: class="fragment roll-in" -->
+- Eager to learn <!-- .element: class="fragment roll-in" -->
+- Great team player <!-- .element: class="fragment roll-in" -->
+- Up to date with latest js libraries <!-- .element: class="fragment roll-in" -->
 
 <!--//-->
 # Why MathWorks?
-- Potential for giant impact on large userbase
-- Opportunities to learn new technologies
-- Plenty of room to grow
-- Great work environment for developers
-- Stable and growing company
+- Potential for giant impact on large userbase <!-- .element: class="fragment roll-in" -->
+- Opportunities to learn new technologies <!-- .element: class="fragment roll-in" -->
+- Plenty of room to grow <!-- .element: class="fragment roll-in" -->
+- Great work environment for developers <!-- .element: class="fragment roll-in" -->
+- Stable and growing company <!-- .element: class="fragment roll-in" -->
 
 <!--/-->
 # Thanks! <!-- .element: style="color: #268bd2;" -->

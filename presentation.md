@@ -31,9 +31,9 @@
 
 <!--/-->
 ## Code Center Overview
-- component request/approval process
-- encourage identify 3rd party dependencies at start of project
-- provided a bill of materials for project/application
+- component request and approval process
+- encourage identification of 3rd party dependencies at start of project
+- provides a bill of materials for project/application
 
 <!--//-->
 ## Code Center Architecture
@@ -42,9 +42,11 @@
 
 <!--//-->
 ## Code Center Responsibilities
-- initially on backend (e.g. spring, ibatis, hibernate, postgresql)
+- initially worked on backend using spring, ibatis, hibernate, postgresql
 - eventually started helping with UI work through spring mvc
-- after framework developed, gradually shifted to primarily UI
+- after UI framework developed, gradually shifted to primarily UI
+  - develop new views
+  - modify existing ones
   - maintain/extend framework
 
 <!--/-->
@@ -52,7 +54,7 @@
 - Typical page load
   - 1-3 seconds on chrome/firefox
   - 5-15 seconds on IE
-- Request UI page load
+- Request UI page load <!-- .element: class="fragment" -->
   - 3-5 seconds on chrome/firefox
   - 10-30 seconds on IE8/IE9
   - minutes on IE7
@@ -109,7 +111,7 @@
   - < 1 second on chrome/firefox
   - 1-3 seconds on IE8/IE9
   - ~5 seconds on IE7
-- Side effects
+- Side effects <!-- .element: class="fragment" -->
   - page interaction much smoother
   - form updated quicker
 

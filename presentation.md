@@ -96,7 +96,6 @@
   - no guarantee that it would be significantly faster
   - never done on any other view, so limited time estimate
 - Known Challenges <!-- .element: class="fragment" -->
-  - no jQuery
   - making GWT RPC calls to get and update data
   - binding to framework events
 - Discovered Challenges <!-- .element: class="fragment" -->

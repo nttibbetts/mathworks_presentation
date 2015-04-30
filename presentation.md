@@ -88,10 +88,11 @@
   - slow IE performance hampered using the profiler
   - very little discovered from profiler
 - Manual static analysis on gwt java code
+  - primarily focused on the view rendering lifecycle
 
 <!--//-->
 ## Solution
-- Rewrite this UI without the framework
+- Rewrite this view without the UI framework
 - Potential Risks <!-- .element: class="fragment" -->
   - no guarantee that it would be significantly faster
   - never done on any other view, so limited time estimate
@@ -111,6 +112,21 @@
 - Side effects
   - page interaction much smoother
   - form updated quicker
+
+<!--/-->
+# Why Nathan?
+- High attention to detail
+- Enthusiastic
+- Eager to learn
+- Great team player
+
+<!--//-->
+# Why MathWorks?
+- Potential for giant impact on large userbase
+- Opportunities to learn new technologies
+- Plenty of room to grow
+- Great work environment for developers
+- Stable and growing company
 
 <!--/-->
 # Thanks! <!-- .element: style="color: #268bd2;" -->

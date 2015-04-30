@@ -119,6 +119,7 @@
 - Enthusiastic
 - Eager to learn
 - Great team player
+- Up to date with latest js libraries
 
 <!--//-->
 # Why MathWorks?

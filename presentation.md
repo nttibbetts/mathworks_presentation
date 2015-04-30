@@ -48,14 +48,16 @@
   - maintain/extend framework
 
 <!--/-->
-# Problem Background
-## UI Framework
- - describe framework and original purpose
-  - few people that had signficant js knowledge
-  - leverage existing java knowledge
-  - provide very rigid, very predictable html for QA
+## Performance Problem
+- Typical page load
+  - 1-3 seconds on chrome/firefox
+  - 5-15 seconds on IE
+- Request UI page load
+  - 3-5 seconds on chrome/firefox
+  - 10-30 seconds on IE8/IE9
+  - minutes on IE7
 
-<!--//-->
+<!--/-->
 # Problem Background
 ## Typical Usage
 - design approval workflow
@@ -73,37 +75,33 @@
 - fields to be shown based on current form data determined by back end
 
 <!--//-->
-## Starting Request Form
-![Starting Request Form Wireframe][start_frame]
+# Problem Background
+## Request Form Example
+![Starting Request Form Wireframe][start_frame] <!-- .element: style="vertical-align: top;" -->
+![Changed Request Form Wireframe][changed_frame] <!-- .element: class="fragment" -->
 [start_frame]: img/starting_request_form.svg "Starting Request Form Wireframe"
-
-<!--//-->
-## Changed Request Form
-![Changed Request Form Wireframe][changed_frame]
 [changed_frame]: img/changed_request_form.svg "Changed Request Form Wireframe"
-
-<!--/-->
-## Performance Problem
-- Typical page load
-  - 1-3 seconds on chrome/firefox
-  - 5-15 seconds on IE
-- Request UI page load
-  - 3-5 seconds on chrome/firefox
-  - 10-30 seconds on IE8/IE9
-  - minutes on IE7
 
 <!--/-->
 ## Process
 - Used DynaTrace AJAX Edition to profile javascript
   - slow IE performance hampered using the profiler
   - very little discovered from profiler
+- Manual static analysis on gwt java code
 
 <!--//-->
 ## Solution
 - Rewrite this UI without the framework
-  - potential risks
-  - known challenges (e.g. binding to gwt rpc to get/update data)
-  - discovered challenges (e.g. generated html being QA compliant)
+- Potential Risks <!-- .element: class="fragment" -->
+  - no guarantee that it would be significantly faster
+  - never done on any other view, so limited time estimate
+- Known Challenges <!-- .element: class="fragment" -->
+  - no jQuery
+  - making GWT RPC calls to get and update data
+  - binding to framework events
+- Discovered Challenges <!-- .element: class="fragment" -->
+  - problems making generated html comply with QA needs
+  - various idiosyncrasies of IE7s javascript implementation
 
 <!--//-->
 ## Outcome
@@ -117,4 +115,3 @@
 
 <!--/-->
 # Thanks! <!-- .element: style="color: #268bd2;" -->
-### for your time and consideration

@@ -7,16 +7,16 @@
 ## Worcester Polytechnic Institute
 - Bachelor of Science in Computer Science
 - MQP Project
-  - An Analysis of Playability and Fairness for Group Game Server Selection
+  - "An Analysis of Playability and Fairness for Group Game Server Selection"
   - focused on average ping of clients from different locations as a means of determining the ideal game server for a group of players to play
 
 <!--/-->
 # Experience
 ## Black Duck Software
 - Software Engineer
-- worked mostly on Code Center
+- Worked mostly on Code Center
   - primarily back end java development
-- last ~1.5 years working on new product
+- Last ~1.5 years working on new product
   - purely front end javascript development
   - assisted with decisions on libraries to be used
     - backbone.js, backbone-marionette.js, bootstrap, less
@@ -32,9 +32,9 @@
 
 <!--/-->
 ## Code Center Overview
-- component request and approval process
-- encourage identification of 3rd party dependencies at start of project
-- provides a bill of materials for project/application
+- Component request and approval process
+- Encourage identification of 3rd party dependencies at start of project
+- Provides a bill of materials for project/application
 
 <!--//-->
 ## Code Center Architecture
@@ -43,9 +43,9 @@
 
 <!--//-->
 ## Code Center Responsibilities
-- initially worked on backend using spring, ibatis, hibernate, postgresql
-- eventually started helping with UI work through spring mvc
-- after UI framework developed, gradually shifted to primarily UI
+- Initially worked on backend using spring, ibatis, hibernate, postgresql
+- Eventually started helping with UI work through spring mvc
+- After UI framework developed, gradually shifted to primarily UI
   - develop new views
   - modify existing ones
   - maintain/extend framework
@@ -63,19 +63,19 @@
 <!--/-->
 # Problem Background
 ## Typical Usage
-- design approval workflow
+- Design approval workflow
   - determine stages and what information is needed
   - layout the flow of the stages
-- developers request use of software components (e.g. OSS, licensed)
+- Developers request use of software components (e.g. OSS, licensed)
   - provide information as defined in workflow
-- components approved/disapproved based on outcome of workflow
+- Components approved/disapproved based on outcome of workflow
 
 <!--//-->
 # Problem Background
 ## Request Workflow UI
-- each stage of workflow could require information from requester
-- the generated form fields would often be dynamically shown/hidden
-- fields to be shown based on current form data determined by back end
+- Each stage of workflow could require information from requester
+- The generated form fields would often be dynamically shown/hidden
+- Fields to be shown based on current form data determined by back end
 
 <!--//-->
 # Problem Background

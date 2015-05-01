@@ -1,3 +1,5 @@
+<!--/-->
+<!-- .slide: data-transition="fade" -->
 # Nathan Tibbetts <!-- .element: style="color: #fdf6e3;" -->
 ## Front End Developer
 `nttibbetts@gmail.com | github.com/nttibbetts`
